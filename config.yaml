@@ -1,0 +1,56 @@
+# FaceFlow Configuration File
+
+global:
+  limit_gb: 10
+  min_duration_s: 15
+  max_duration_s: 900
+  target_duration_s: 30
+  model_path: "face_landmarker.task"
+
+paths:
+  videos_dir: "videos"
+  tiktok_videos_dir: "tiktok_videos"
+  youtube_db: "db/pipeline.db"
+  tiktok_db: "db/tiktok_pipeline.db"
+  tiktok_v2_db: "db/tiktok_pipeline_v2.db"
+  cookies_file: "cookies.txt"
+  accounts_file: "tiktok_accounts.txt"
+
+youtube:
+  seed_keywords:
+    - "Keluar Sekejap"
+    - "ML Studios"
+    - "Astro Awani"
+    - "BFM 89.9"
+    - "KiniTV"
+    - "Sinar Harian"
+    - "Harian Metro"
+    - "Berita Harian"
+    - "The Star Malaysia"
+    - "Malaysia podcast"
+    - "Malaysia interview"
+    - "Malaysia vlog"
+  topics:
+    - "politics"
+    - "economy"
+    - "lifestyle"
+    - "food"
+    - "tech"
+    - "business"
+  years:
+    - "2023"
+    - "2024"
+    - "2025"
+    - ""
+
+tiktok:
+  hashtags:
+    - "malaysia"
+    - "malaysiatiktok"
+    - "sembang"
+    - "podcastmalaysia"
+    - "beritaditiktok"
+    - "kongsibersama"
+    - "belajarditiktok"
+    - "tiktokguru"
+    - "tiktokmalaysia"

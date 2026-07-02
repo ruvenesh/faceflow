@@ -13,8 +13,7 @@ class MainMenu(Container):
             Button("1. Run YouTube Shorts Downloader", id="btn_yt", variant="primary"),
             Button("2. Run TikTok Hashtag Downloader", id="btn_tk1", variant="primary"),
             Button("3. Run TikTok Account Downloader", id="btn_tk2", variant="primary"),
-            Button("4. Run Main Processing Pipeline", id="btn_pipe", variant="warning"),
-            Button("5. Run Rescue Pipeline", id="btn_rescue", variant="warning"),
+            Button("4. Run Rescue Pipeline", id="btn_rescue", variant="warning"),
             Button("Quit", id="btn_quit", variant="error"),
             id="menu_container"
         )
@@ -79,8 +78,6 @@ class FaceFlowApp(App):
             self.run_script("tiktok_downloader.py")
         elif button_id == "btn_tk2":
             self.run_script("tiktok_downloader_v2.py")
-        elif button_id == "btn_pipe":
-            self.run_script("pipeline.py")
         elif button_id == "btn_rescue":
             self.run_script("rescue_multiface.py")
         elif button_id == "btn_quit":
