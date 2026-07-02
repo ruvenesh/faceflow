@@ -1,7 +1,7 @@
 # FaceFlow - Deepfake Data Harvester
 
-![FaceFlow TUI App](docs/faceflow-app.png)
 ![Terminal Launch Sequence](docs/terminal-launch.png)
+![FaceFlow TUI App](docs/faceflow-app.png)
 
 FaceFlow is a highly automated data harvesting and processing pipeline designed to source, process, and curate high-quality face-centric video datasets from platforms like YouTube and TikTok. It is optimized to support deepfake and face-swapping model training.
 
@@ -27,6 +27,8 @@ pip install -r requirements.txt
 ## Configuration
 
 All configuration is managed via `config.yaml`.
+**Tip: We highly recommend using an LLM (like ChatGPT or Claude) to generate your `config.yaml` with extensive keywords, topics, and hashtags tailored to your specific dataset needs.**
+
 You can customize:
 - `limit_gb`: Total target dataset size in GB.
 - `seed_keywords` and `topics`: Used for rotating searches.
