@@ -1,4 +1,4 @@
-# FaceFlow - Deepfake Data Harvester
+# FaceFlow - Face Video Data Harvester
 
 ![Terminal Launch Sequence](docs/terminal-launch.png)
 ![FaceFlow TUI App](docs/faceflow-app.png)
